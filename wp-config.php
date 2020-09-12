@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'skillbook' );
 
 /** MySQL database username */
-define( 'DB_USER', 'skillbookuser' );
+define( 'DB_USER', 'skillbooku' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'SkillbookPass' );
+define( 'DB_PASSWORD', 'password' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
@@ -46,14 +46,15 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+
+define('AUTH_KEY',         'm5h+!M+#,+dJ^c$VSP+4u4=3ag]tdBcx+k:[QaKJLd9RIR|J4z)Pc@P{V38rM_m{');
+define('SECURE_AUTH_KEY',  '3/l*|w=E}zg??.B%{-t70zKnmNMxC5+OBWI=kJ]NcjKkZ]-.F}`^KaZ{Ii1edY0B');
+define('LOGGED_IN_KEY',    'P~<C=#-nJTr~9^#i39!q|YWa(jEvhj|<HNQtvdYy*+D|5}-%KXdpVdcN?HS+Q@(3');
+define('NONCE_KEY',        'DrK%.VBK)$8Vu )EL~AGOnq6/-|J-hto,z;]CEj8MpnjR+`v(o$:#=sA|N-;0-+@');
+define('AUTH_SALT',        'JY;/WC|v4_?-Xm-}6<8oTQ`<[?OS0vDPW,B,6D0`HA*R(^OP1oDB4fPj-?V9ky}u');
+define('SECURE_AUTH_SALT', 'r:x`?v$:X*itF+cDb2|)IGTm|!y/5u+.mA!)+rISK=zQ!,*+;+a@t+.V5wZ2l3l^');
+define('LOGGED_IN_SALT',   '_D$@McE?mh~n]6_]gjmSTY?f#YDOig1vSr^()x/jy9U,@5$Z]8`z<Fv!hL@wKg0[');
+define('NONCE_SALT',       'IS:<3,>qp]9!*q+@Gj$?{^|cfPUK*<hR)<?q-9seR$h$27q[$n/h7n]a`YS<fM:>');
 
 /**#@-*/
 
