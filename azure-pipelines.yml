@@ -17,9 +17,20 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-
-- task: PublishBuildArtifacts@1
+- task: SSH@0
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-    ArtifactName: 'drop'
-    publishLocation: 'Container'
+    sshEndpoint: 'one instance'
+    runOptions: 'inline'
+    inline: |
+      #!/bin/bash
+      echo 'start'
+      # sudo su
+      echo 'git clone'
+      git clone https://github.com/yifa-n/skillbook.git -q
+      echo ' mv file'
+      sudo rm -rf /var/www/html/*
+      sudo cp  -r skillbook/* /var/www/html/
+      echo 'delete file'
+      rm -rf skillbook
+      echo 'finish'
+    readyTimeout: '20000'
