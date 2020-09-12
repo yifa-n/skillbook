@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'skillbook' );
 
 /** MySQL database username */
-define( 'DB_USER', 'skillbooku' );
+define( 'DB_USER', 'skillbook' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'password' );
+define( 'DB_PASSWORD', 'passwordtest' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
